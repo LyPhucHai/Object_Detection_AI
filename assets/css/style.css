@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:"Segoe UI",sans-serif;
+    background:linear-gradient(135deg,#eef2ff,#f8fafc,#dbeafe);
+    color:#111827;
+    padding:30px 16px;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+}
+
+.hero{
+    text-align:center;
+    margin-bottom:45px;
+}
+
+.hero-tag{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    background:white;
+    color:#2563eb;
+    font-size:12px;
+    font-weight:700;
+    margin-bottom:18px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.06);
+}
+
+.hero h1{
+    font-size:48px;
+    margin-bottom:12px;
+    font-weight:800;
+    background:linear-gradient(135deg, #111827, #2563eb);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+}
+
+.hero p{
+    color:#6b7280;
+    font-size:16px;
+}
+
+.cards-grid{
+    display:flex;
+    justify-content:center;
+}
+
+.ai-card{
+    width:290px;
+    padding:28px;
+    border-radius:24px;
+    text-decoration:none;
+    color:#111827;
+    background:rgba(255,255,255,0.85);
+    box-shadow:0 10px 24px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.ai-card:hover{
+    transform:translateY(-6px);
+}
+
+.card-icon{
+    width:76px;
+    height:76px;
+    border-radius:20px;
+    background:linear-gradient(145deg, #eef2ff, #dbeafe);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:38px;
+    margin-bottom:20px;
+}
+
+.card-badge{
+    display:inline-block;
+    padding:7px 14px;
+    border-radius:999px;
+    background:#eef2ff;
+    color:#2563eb;
+    font-size:12px;
+    font-weight:700;
+    margin-bottom:16px;
+}
+
+.card-content h2{
+    font-size:32px;
+    margin-bottom:14px;
+}
+
+.card-content p{
+    color:#6b7280;
+    line-height:1.7;
+    font-size:15px;
+}
